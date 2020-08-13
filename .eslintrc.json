@@ -39,7 +39,12 @@
     "react/prop-types": [0],
     "react/jsx-wrap-multilines": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".tsx", ".jsx"]
+      }
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/no-array-index-key": "off"
