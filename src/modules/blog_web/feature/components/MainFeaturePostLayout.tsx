@@ -21,9 +21,6 @@ const MainFeaturePostLayout: React.FC<Props> = (props) => {
         style={{
           maxWidth: '100%',
           position: 'relative',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
         }}
       >
         <Hidden xsDown>
@@ -32,7 +29,7 @@ const MainFeaturePostLayout: React.FC<Props> = (props) => {
             title={data?.imageTitle}
             component="img"
             alt="Contemplative Reptile"
-            height="600"
+            style={{ height: 435 }}
           />
         </Hidden>{' '}
         <CardContent>
